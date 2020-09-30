@@ -11,5 +11,6 @@ jobs:
         with:
           name: "9.4.x"
           version: "9.4.32"
+          tag: "9.4.32"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
