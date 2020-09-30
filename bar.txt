@@ -1,3 +1,4 @@
 Bar introduced
 More text
 Bar from Three
+Bar four feature
