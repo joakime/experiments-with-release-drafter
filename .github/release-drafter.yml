@@ -13,8 +13,8 @@ categories:
   - title: '🧰 Maintenance'
     label: 'chore'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
-# Disable # and @ mentions, along with code blocks in titles 
-change-title-escapes: '\<*_&#@`'
+# Disable certain characters in title from being interpreted as markdown
+change-title-escapes: '\<*_&#'
 template: |
   ## What’s Changed
 
