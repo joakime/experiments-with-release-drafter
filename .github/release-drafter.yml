@@ -1,4 +1,4 @@
-name-template: 'v$JETTY_VERSION ⛵'
+name-template: 'v$RESOLVED_VERSION ⛵'
 categories:
   - title: '🚀 Features'
     labels:
@@ -15,6 +15,6 @@ change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 # Disable certain characters in title from being interpreted as markdown
 change-title-escapes: '\<*_&#'
 template: |
-  ## What’s Changed in $JETTY_VERSION
+  ## What’s Changed in $RESOLVED_VERSION
 
   $CHANGES

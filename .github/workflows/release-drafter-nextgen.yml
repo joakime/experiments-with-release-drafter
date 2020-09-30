@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: release-drafter/release-drafter@v5.11.0
+        with:
+          name: "2.0.x"
+          version: "2.0.0"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JETTY_VERSION: "2.0.x"
