@@ -1,2 +1,4 @@
-_extends: .github
-tag-template: experiments-joakim-$NEXT_PATCH_VERSION
+template: |
+  ## What’s Changed
+
+  $CHANGES
