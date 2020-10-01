@@ -7,7 +7,7 @@ jobs:
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@v5.11.0
+      - uses: olamy/release-drafter@multiple_branches
         with:
           name: "10.0.x"
           version: "10.0.0"
