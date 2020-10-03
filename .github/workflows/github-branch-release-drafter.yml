@@ -5,14 +5,15 @@ on:
       - jetty-9.4.x
       - jetty-10.0.x
       - jetty-11.0.x
+      - jetty-12.0.x
 jobs:
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
       - uses: joakime/github-branch-release-drafter@olamy_experiment
         with:
-          name: "9.4.x"
-          version: "9.4.32"
-          tag: "9.4.32"
+          name: "12.0.x"
+          version: "12.0.x"
+          tag: "12.0.x"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
