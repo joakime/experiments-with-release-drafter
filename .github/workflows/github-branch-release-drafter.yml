@@ -14,5 +14,6 @@ jobs:
           name: "9.4.x"
           version: "9.4.32"
           tag: "9.4.32"
+          draft_config: ".github/release-drafter.yml"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
