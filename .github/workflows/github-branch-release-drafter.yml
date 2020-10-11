@@ -15,6 +15,6 @@ jobs:
           version: "9.4.32"
           tag: "9.4.32"
           draft_config: ".github/release-drafter.yml"
-          draft-repo: "olamy/jetty.project"
+          draft_repo: "olamy/jetty.project"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
